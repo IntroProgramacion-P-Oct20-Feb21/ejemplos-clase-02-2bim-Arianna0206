@@ -22,7 +22,7 @@ public class Ejemplo04 {
                 
         for (int i = 0; i < arreglo1.length; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %d\n",
-                    i, arreglo1[i]);
+                    i, arreglo1[i]);  
         }
         
     }

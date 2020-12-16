@@ -32,7 +32,7 @@ public class Ejemplo011 {
         // Se hace uso del ciclo repetitivo for para recorrer los arreglos
         // y presentar los valore de las posiciones
         
-        for (int i = 0; i < promediosMateria1.length; i++) {
+        for (int i = 0; i < estudiantes.length; i++) {
             // se suma el valor de la posición i del arreglo 
             // promediosMateria1 y promediosMateria2
             sumaNotas = promediosMateria1[i] + promediosMateria2[i];
@@ -42,12 +42,14 @@ public class Ejemplo011 {
             promediosFinales[i] = promedio;
         }
         
-        for (int i = 0; i < promediosMateria1.length; i++) { 
+        for (int i = 0; i < estudiantes.length; i++) { 
             
-            mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
-                    + "%.4f\n", 
+            mensajeFinal = String.format("%sEstudiante: %s -  M1: %.3f - "
+                    + "M2: %.5f - PROM:  %.2f\n", 
                     mensajeFinal,
                     estudiantes[i],
+                    promediosMateria1[i],
+                    promediosMateria2[i],
                     promediosFinales[i]);
         }
         

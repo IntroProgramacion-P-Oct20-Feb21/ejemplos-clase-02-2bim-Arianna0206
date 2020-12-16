@@ -24,7 +24,7 @@ public class Ejemplo08 {
         // arreglo de tipo entero
         // se le asigna valores concretos al arreglo cuando se lo
         // inicializa
-        int[] arreglo1 = {1000, 2000, 3000, 4000, 5000};
+        int[] arreglo1 = {1000, 2000, 3000, 4000, 5000};//arreglo de 5 elementos
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
